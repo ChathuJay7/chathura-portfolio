@@ -6,7 +6,7 @@ const projects = [
     title: "Travel Diaries",
     description:
       "Social platform for travelers to share experiences with photos and engage with community posts.",
-    image: "/projects/travel-diaries.png",
+    image: "src/assets/projects/travel-diaries.png",
     tags: [
       "Next.js",
       "Node.js",
@@ -22,7 +22,7 @@ const projects = [
     title: "Library Management System",
     description:
       "Desktop library management system with role-based access control, book management, and borrowing records.",
-    image: "/projects/library-management-system.png",
+    image: "src/assets/projects/library-management-system.png",
     tags: ["Java", "JavaFX", "Scene builder", "MySQL", "Hibernate"],
     demoUrl: "https://www.youtube.com/watch?v=hj72mhjSJ6M",
     githubUrl: "https://github.com/ChathuJay7/Library_Management_System",
@@ -32,7 +32,7 @@ const projects = [
     title: "E-commerce Platform",
     description:
       "E-commerce platform with authentication, payment processing, and live chat capabilities.",
-    image: "/projects/e-commerce.png",
+    image: "src/assets/projects/e-commerce.png",
     tags: ["NestJS", "React", "Socket.io", "Microservices", "AWS S3", "Stripe"],
     githubUrl:
       "https://github.com/ChathuJay7/Ecommerce-webiste-with-realtime-chat-application",

@@ -12,7 +12,7 @@ export const HeroSection = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl">
                 <img
-                  src="/profile-pictures/profile-picture.png"
+                  src="src/assets/profile-pictures/profile-picture.png"
                   alt="Profile Picture"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   onError={(e) => {
