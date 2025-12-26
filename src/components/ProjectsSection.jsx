@@ -1,4 +1,7 @@
 import {ArrowRight, ExternalLink, Github, Youtube} from "lucide-react";
+import libraryManagementImg from "@/assets/projects/library-management-system.png";
+import ecommerceImg from "@/assets/projects/e-commerce.png";
+import travelDiariesImg from "@/assets/projects/travel-diaries.png";
 
 const projects = [
   {
@@ -6,7 +9,7 @@ const projects = [
     title: "Travel Diaries",
     description:
       "Social platform for travelers to share experiences with photos and engage with community posts.",
-    image: "src/assets/projects/travel-diaries.png",
+    image: travelDiariesImg,
     tags: [
       "Next.js",
       "Node.js",
@@ -22,7 +25,7 @@ const projects = [
     title: "Library Management System",
     description:
       "Desktop library management system with role-based access control, book management, and borrowing records.",
-    image: "src/assets/projects/library-management-system.png",
+    image: libraryManagementImg,
     tags: ["Java", "JavaFX", "Scene builder", "MySQL", "Hibernate"],
     demoUrl: "https://www.youtube.com/watch?v=hj72mhjSJ6M",
     githubUrl: "https://github.com/ChathuJay7/Library_Management_System",
@@ -32,7 +35,7 @@ const projects = [
     title: "E-commerce Platform",
     description:
       "E-commerce platform with authentication, payment processing, and live chat capabilities.",
-    image: "src/assets/projects/e-commerce.png",
+    image: ecommerceImg,
     tags: ["NestJS", "React", "Socket.io", "Microservices", "AWS S3", "Stripe"],
     githubUrl:
       "https://github.com/ChathuJay7/Ecommerce-webiste-with-realtime-chat-application",
